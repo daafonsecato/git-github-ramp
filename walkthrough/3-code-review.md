@@ -64,7 +64,7 @@ $ git branch -r --list teammate/*
 # show all remote branches for the teammate
   teammate/develop
   teammate/eggs-benny-feb
-  teammate/master
+  teammate/main
 ```
 
 Checkout a tracking branch:

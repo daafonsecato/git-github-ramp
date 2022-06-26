@@ -54,34 +54,34 @@ $ git remote show origin
 * remote origin
   Fetch URL: https://github.com/your-username/repository-name.git
   Push  URL: https://github.com/your-username/repository-name.git
-  HEAD branch: master
+  HEAD branch: main
   Remote branches:
     develop tracked
-    master  tracked
+    main  tracked
   Local branch configured for 'git pull':
-    master  merges with remote master
+    main  merges with remote main
   Local ref configured for 'git push':
-    master  pushes to master (up to date)
+    main  pushes to main (up to date)
 ```
 
 View existing branches:
 ```sh
 $ git branch
 # show local branches
-* master
+* main
 
 $ git branch -r
 # show remote branches
-origin/HEAD -> origin/master
+origin/HEAD -> origin/main
 origin/develop
-origin/master
+origin/main
 
 $ git branch -a
 # show all branches
-* master
-  remotes/origin/HEAD -> origin/master
+* main
+  remotes/origin/HEAD -> origin/main
   remotes/origin/develop
-  remotes/origin/master
+  remotes/origin/main
 ```
 
 ---
@@ -114,12 +114,12 @@ $ git remote show upstream
 * remote upstream
   Fetch URL: https://github.com/source-username/repository-name.git
   Push  URL: https://github.com/source-username/repository-name.git
-  HEAD branch: master
+  HEAD branch: main
   Remote branches:
     develop new (next fetch will store in remotes/upstream)
-    master  new (next fetch will store in remotes/upstream)
+    main  new (next fetch will store in remotes/upstream)
   Local ref configured for 'git push':
-    master  pushes to master (up to date)
+    main  pushes to main (up to date)
 ```
 
 Maintainers will need to create branches and push directly to the source repository.
@@ -131,15 +131,15 @@ Fetch branch data from the `origin` remote:
 $ git fetch origin
 From https://github.com/your-username/repository-name
 * [new branch]      develop    -> origin/develop
-* [new branch]      master     -> origin/master
+* [new branch]      main     -> origin/main
 
 $ git branch -a
-* master
-  remotes/origin/HEAD -> origin/master
+* main
+  remotes/origin/HEAD -> origin/main
   remotes/origin/develop
-  remotes/origin/master
+  remotes/origin/main
   remotes/upstream/develop
-  remotes/upstream/master
+  remotes/upstream/main
 ```
 
 ---
@@ -157,7 +157,7 @@ __All Team Members__
 By now you should have noticed that you do not have a local `develop` branch
 ```sh
 $ git branch
-* master
+* main
 ```
 
 Create a `develop` branch that tracks from `origin`'s `develop` branch:
@@ -166,23 +166,23 @@ $ git checkout -b develop --track origin/develop
 Branch develop set up to track remote branch develop from origin
 ```
 
-Notice that viewing the details for the `origin` remote indicates that the local `develop` and `master` branches are configured to push to and pull from the source GitHub repository's branches:
+Notice that viewing the details for the `origin` remote indicates that the local `develop` and `main` branches are configured to push to and pull from the source GitHub repository's branches:
 ```sh
 $ git remote show origin
 ...
    Local branches configured for 'git pull':
      develop merges with remote develop
-     master  merges with remote master
+     main  merges with remote main
    Local branches configured for 'git push':
      develop pushes to develop (up to date)
-     master  pushes to master (up to date)
+     main  pushes to main (up to date)
 ```
 
 :bulb: The `-vv` flag for the `git branch` command will also show the remote branches that are tracked by your local branches (in brackets):
 ```sh
 $ git branch -vv
 * develop 3e03a92 [origin/develop] Create example app
-  master  3e03a92 [origin/master] Create example app
+  main  3e03a92 [origin/main] Create example app
 ```
 
 You should now be ready to move on to the rest of the walkthrough. If you'd like to see the repository you've created on your local machine in GitHub desktop, you can add a repository by choosing a local path.

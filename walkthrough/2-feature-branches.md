@@ -4,7 +4,7 @@
 | --- | --- |
 |  February 1<sup>st</sup> | Development |
 
-`v1.0` was pushed to production yesterday without issue. All code from the release has been merged into the `master` and `develop` branches of the project. The new recipes for February have been sent to the team:
+`v1.0` was pushed to production yesterday without issue. All code from the release has been merged into the `main` and `develop` branches of the project. The new recipes for February have been sent to the team:
 
 | Writer | Recipe |
 | --- | --- |
@@ -32,7 +32,7 @@ $ git checkout -b cuba-pudding-jr-feb
 $ git branch
 * cuba-pudding-jr-feb
   develop
-  master
+  main
 ```
 
 :bulb: Feature branches will be named such that someone else can look at what branches are in progress and get a rough idea of what work is being done on each branch.

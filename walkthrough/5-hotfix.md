@@ -8,16 +8,16 @@ This morning the project manager received a frantic call from the EIC of _Flavor
 
 ## :running: Activities
 
-Follow along with the activities below to walk through the process of creating a hotfix branch, creating a feature branch for the changes, getting changes merged into the hotfix, then merging the hotfix into both the `master` and `develop` branches.
+Follow along with the activities below to walk through the process of creating a hotfix branch, creating a feature branch for the changes, getting changes merged into the hotfix, then merging the hotfix into both the `main` and `develop` branches.
 
 ### 1 - Create the Hotfix Branch
 
 __Maintainers__
 
-Create a branch off of `master` named `hotfix-1.0.1`:
+Create a branch off of `main` named `hotfix-1.0.1`:
 ```sh
-$ git checkout master
-# switch to master branch
+$ git checkout main
+# switch to main branch
 
 $ git checkout -b hotfix-1.0.1
 # create & switch to hotfix branch
@@ -129,7 +129,7 @@ Navigate to your GitHub fork and open the pull request, making sure to request t
 
 __Maintainers__
 
-Choose a maintainer to accept the new pull request to merge the hotfix branch into master,.
+Choose a maintainer to accept the new pull request to merge the hotfix branch into main,.
 
 ---
 

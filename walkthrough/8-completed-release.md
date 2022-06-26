@@ -8,18 +8,18 @@ It is the last day of the month and no more requests have come in from the, time
 
 ## :running: Activities
 
-### 1 - Merge Release Branch into `master`
+### 1 - Merge Release Branch into `main`
 
 __Maintainers__
 
-Choose a maintainer to merge `release-1.1` into `master`.
+Choose a maintainer to merge `release-1.1` into `main`.
 
 ```sh
 $ git checkout release-1.1
 
 $ git pull
 
-$ git checkout master
+$ git checkout main
 
 $ git pull
 
@@ -71,7 +71,7 @@ Choose a maintainer to create a Release in GitHub:
 
 1. On the source repository page, click the "# releases" link in the stats bar at the top (or append `/releases` to the repo URL).
 2. Click new release.
-3. Name the release tag v1.1, choose the master branch, and document the changes comprising the release.
+3. Name the release tag v1.1, choose the main branch, and document the changes comprising the release.
 
 The release feature in GitHub is an easy way to keep track of changes associated with each release. Files may also be uploaded and attached to the release, so they can also act as a place to store any additional files related to the release that are not tracked in version control.
 

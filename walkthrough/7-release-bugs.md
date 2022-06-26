@@ -75,7 +75,7 @@ Review the developer Pull Requests and merge them into `release-1.1`.
 
 ## Next
 
-Finally, we will walk through the process of completing a release: merging into master, back down into develop, and creating a GitHub release tag.
+Finally, we will walk through the process of completing a release: merging into main, back down into develop, and creating a GitHub release tag.
 
 [Go](8-completed-release.md)
 
