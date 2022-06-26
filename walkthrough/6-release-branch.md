@@ -59,7 +59,7 @@ Next we will walk through the process of fixing bugs in the release branch.
 - [1. Setup](1-setup.md)
 - [2. Feature Branches](2-feature-branches.md)
 - [3. Code Review](3-code-review.md)
-- [4. Fetching Latest](4-fetching-latest.md)
+- [4. Fetching the Latest](4-fetching-latest.md)
 - [5. Hotfix](5-hotfix.md)
 - [7. Release Bugs](7-release-bugs.md)
 - [8. Completed Release](8-completed-release.md)

@@ -172,7 +172,7 @@ $ git commit -m "Adding Cuba Pudding Jr.'s Feb Recipe"
 
 Now that your changes have been committed, let's get them published to your Fork on GitHub:
 ```sh
-$ git push -u me HEAD
+$ git push -u upstream HEAD
 ```
 
 :bulb: Specifying the HEAD reference instructs git to push to the same branch as the HEAD of your local project, which is currently your feature branch.
@@ -217,7 +217,7 @@ Next we will walk through the process of reviewing a Pull Request, viewing someo
 - [Readme](../readme.md)
 - [1. Setup](1-setup.md)
 - [3. Code Review](3-code-review.md)
-- [4. Fetching Latest](4-fetching-latest.md)
+- [4. Fetching the Latest](4-fetching-latest.md)
 - [5. Hotfix](5-hotfix.md)
 - [6. Release Branch](6-release-branch.md)
 - [7. Release Bugs](7-release-bugs.md)

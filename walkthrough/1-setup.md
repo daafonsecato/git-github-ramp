@@ -1,6 +1,6 @@
 # 1. Setup
 
-In order to contribute to a GitHub project, you will need two things: a GitHub Fork and a local clone of this project.
+In order to contribute to a GitHub project, you will need two things: a GitHub *Source* Forked Repo (upstream) and *Your* Fork (origin) project.
 
 ## :running: Activities
 
@@ -14,6 +14,7 @@ __All Team Members__
 Fork the source repository:
    1. Visit https://github.com/source-username/repository-name.
    2. Click the "fork" button, and choose your personal GitHub account if prompted.
+   2. Check that you know are working in your own fork project, named https://github.com/your-username/repository-name.
 
 ---
 
@@ -30,7 +31,7 @@ __All Team Members__
 Clone this project to your local machine:
 ```sh
 $ cd ~/my/parent/directory
-$ git clone https://github.com/source-username/repository-name.git
+$ git clone https://github.com/your-username/repository-name.git
 # clone the fork repository from GitHub
 
 $ cd repository-name
@@ -43,16 +44,16 @@ $ git remote
 origin
 
 $ git remote -v
-origin https://github.com/source-username/repository-name.git (fetch)
-origin https://github.com/source-username/repository-name.git (push)
+origin https://github.com/your-username/repository-name.git (fetch)
+origin https://github.com/your-username/repository-name.git (push)
 ```
 
-You should see an `origin` remote that points to the source GitHub project:
+You should see an `origin` remote that points to your fork GitHub project:
 ```sh
 $ git remote show origin
 * remote origin
-  Fetch URL: https://github.com/source-username/repository-name.git
-  Push  URL: https://github.com/source-username/repository-name.git
+  Fetch URL: https://github.com/your-username/repository-name.git
+  Push  URL: https://github.com/your-username/repository-name.git
   HEAD branch: master
   Remote branches:
     develop tracked
@@ -91,32 +92,32 @@ $ git branch -a
 
 ---
 
-### 3 - Add Remote for your GitHub Fork
+### 3 - Add Remote for the source GitHub Forked project
 
 __All Team Members__
 
-Add a `me` remote:
+Add a `upstream` remote:
 ```sh
-$ git remote add me https://github.com/your-username/repository-name.git
-# add the me remote
+$ git remote add upstream https://github.com/your-username/repository-name.git
+# add the upstream remote
 
 $ git remote -v
-origin https://github.com/source-username/repository-name.git (fetch)
-origin https://github.com/source-username/repository-name.git (push)
-me https://github.com/your-username/repository-name.git (fetch)
-me https://github.com/your-username/repository-name.git (push)
+origin https://github.com/your-username/repository-name.git (fetch)
+origin https://github.com/your-username/repository-name.git (push)
+upstream https://github.com/source-username/repository-name.git (fetch)
+upstream https://github.com/source-username/repository-name.git (push)
 ```
 
-You should see a `me` remote that points to your GitHub Fork repository:
+You should see a `upstream` remote that points to your GitHub Fork repository:
 ```sh
-$ git remote show me
-* remote me
-  Fetch URL: https://github.com/your-username/repository-name.git
-  Push  URL: https://github.com/your-username/repository-name.git
+$ git remote show upstream
+* remote upstream
+  Fetch URL: https://github.com/source-username/repository-name.git
+  Push  URL: https://github.com/source-username/repository-name.git
   HEAD branch: master
   Remote branches:
-    develop new (next fetch will store in remotes/me)
-    master  new (next fetch will store in remotes/me)
+    develop new (next fetch will store in remotes/upstream)
+    master  new (next fetch will store in remotes/upstream)
   Local ref configured for 'git push':
     master  pushes to master (up to date)
 ```
@@ -128,7 +129,7 @@ All team members will need to pull changes from the source repository in order t
 Fetch branch data from the `origin` remote:
 ```sh
 $ git fetch origin
-From https://github.com/source-username/repository-name
+From https://github.com/your-username/repository-name
 * [new branch]      develop    -> origin/develop
 * [new branch]      master     -> origin/master
 
@@ -137,8 +138,8 @@ $ git branch -a
   remotes/origin/HEAD -> origin/master
   remotes/origin/develop
   remotes/origin/master
-  remotes/me/develop
-  remotes/me/master
+  remotes/upstream/develop
+  remotes/upstream/master
 ```
 
 ---
@@ -205,7 +206,7 @@ Next we will walk through the process of creating feature branches, publishing c
 - [Readme](../readme.md)
 - [2. Feature Branches](2-feature-branches.md)
 - [3. Code Review](3-code-review.md)
-- [4. Fetching Latest](4-fetching-latest.md)
+- [4. Fetching the Latest](4-fetching-latest.md)
 - [5. Hotfix](5-hotfix.md)
 - [6. Release Branch](6-release-branch.md)
 - [7. Release Bugs](7-release-bugs.md)

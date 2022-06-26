@@ -1,4 +1,4 @@
-# 4. Fetching Latest
+# 4. Fetching the Latest
 
 | Date | Phase |
 | --- | --- |

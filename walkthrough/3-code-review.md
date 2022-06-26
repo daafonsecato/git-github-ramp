@@ -47,10 +47,10 @@ $ git remote add teammate https://github.com/teammate-username/repository-name.g
 # add the teammate remote
 
 $ git remote -v
-me https://github.com/your-username/repository-name.git (fetch)
-me https://github.com/your-username/repository-name.git (push)
-origin https://github.com/source-username/repository-name.git (fetch)
-origin https://github.com/source-username/repository-name.git (push)
+upstream https://github.com/source-username/repository-name.git (fetch)
+upstream https://github.com/source-username/repository-name.git (push)
+origin https://github.com/your-username/repository-name.git (fetch)
+origin https://github.com/your-username/repository-name.git (push)
 teammate https://github.com/teammate-username/repository-name.git (fetch)
 teammate https://github.com/teammate-username/repository-name.git (push)
 ```
@@ -142,7 +142,7 @@ Next we will walk through the process of fetching the latest changes to the sour
 - [Readme](../readme.md)
 - [1. Setup](1-setup.md)
 - [2. Feature Branches](2-feature-branches.md)
-- [4. Fetching Latest](4-fetching-latest.md)
+- [4. Fetching the Latest](4-fetching-latest.md)
 - [5. Hotfix](5-hotfix.md)
 - [6. Release Branch](6-release-branch.md)
 - [7. Release Bugs](7-release-bugs.md)

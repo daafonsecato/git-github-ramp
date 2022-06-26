@@ -56,7 +56,7 @@ __Developers__
 
 The two developers from the last step should now publish their feature branches to GitHub and open up Pull Requests against the `release-1.1` branch in the source repository:
 ```sh
-$ git push -u me HEAD
+$ git push -u upstream HEAD
 ```
 
 ---
@@ -85,7 +85,7 @@ Finally, we will walk through the process of completing a release: merging into 
 - [1. Setup](1-setup.md)
 - [2. Feature Branches](2-feature-branches.md)
 - [3. Code Review](3-code-review.md)
-- [4. Fetching Latest](4-fetching-latest.md)
+- [4. Fetching the Latest](4-fetching-latest.md)
 - [5. Hotfix](5-hotfix.md)
 - [6. Release Branch](6-release-branch.md)
 - [8. Completed Release](8-completed-release.md)
