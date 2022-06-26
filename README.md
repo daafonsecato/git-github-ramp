@@ -1,14 +1,14 @@
 # Git Flow Exercise
 
-An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/). This exercise will walk your team through a full release cycle for an example application.
+An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/), inspired in a [previous exercise](https://github.com/rferri-gr8/git-flow-exercise). This exercise will walk your team through a full release cycle for an example application.
 
-## Background
+## Background Mario Kart
 
-The print magazine _Flavor_ has asked your firm to build and maintain an app so they can share recipes with their hungry audience.
+The print magazine _Turbo MK_ has asked your firm to build and maintain an app so they can share automotive and motorcycle specifications with their thirsty-for-speed audience.
 
 The typical development cycle for the project is as follows:
 
-- On the 1<sup>st</sup> of every month, your team receives a list of each writer's pick for recipe of the month.
+- On the 1<sup>st</sup> of every month, your team receives a list of each writer's picks for the recipe of the month.
 - On the 15<sup>th</sup> of every month, the new version of the app is pushed to a staging server where the magazine's editors can do a final review.
 - On the last day of the month, the new version of the app is pushed to production.
 
@@ -16,11 +16,7 @@ Development for this project began in January. It is now the beginning of Februa
 
 ## Getting Started
 
-Your team will be split between Developers and one or more Maintainers. Maintainers will be responsible for cutting new releases and accepting Pull Requests from other team members. Maintainers should have write access to this repository and Developers should have read access.
-
-### Follow Along
-
-Please leave this repository open in a browser tab so that you can follow along with the activities without referring to the presenter's screen.
+Your team will have both roles of Developers and Maintainers for all the people in the team. As Maintainers, you will be responsible for cutting new releases and accepting Pull Requests from other team members. As Maintainers you should have write access to this repository and as Developers should have read access in the other teammate repositories.
 
 ### Project Structure
 * Application code can be found in the [`/app/`](/app/) folder.
@@ -29,7 +25,7 @@ Please leave this repository open in a browser tab so that you can follow along 
 
 ## Next
 
-Next we will walk through the process of creating a GitHub Fork and local clone of this repository.
+Next, we will walk through the process of creating a GitHub Fork and the local clone of this repository.
 
 [Go](/walkthrough/1-setup.md)
 
@@ -38,7 +34,7 @@ Next we will walk through the process of creating a GitHub Fork and local clone 
 - [1. Setup](/walkthrough/1-setup.md)
 - [2. Feature Branches](/walkthrough/2-feature-branches.md)
 - [3. Code Review](/walkthrough/3-code-review.md)
-- [4. Fetching Latest](/walkthrough/4-fetching-latest.md)
+- [4. Fetching the Latest](/walkthrough/4-fetching-latest.md)
 - [5. Hotfix](/walkthrough/5-hotfix.md)
 - [6. Release Branch](/walkthrough/6-release-branch.md)
 - [7. Release Bugs](/walkthrough/7-release-bugs.md)
