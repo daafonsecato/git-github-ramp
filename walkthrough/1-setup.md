@@ -98,7 +98,7 @@ __All Team Members__
 
 Add a `upstream` remote:
 ```sh
-$ git remote add upstream https://github.com/your-username/repository-name.git
+$ git remote add upstream https://github.com/source-username/repository-name.git
 # add the upstream remote
 
 $ git remote -v
@@ -108,7 +108,7 @@ upstream https://github.com/source-username/repository-name.git (fetch)
 upstream https://github.com/source-username/repository-name.git (push)
 ```
 
-You should see a `upstream` remote that points to your GitHub Fork repository:
+You should see a `upstream` remote that points to the source GitHub Fork repository:
 ```sh
 $ git remote show upstream
 * remote upstream
