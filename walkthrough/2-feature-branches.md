@@ -8,9 +8,9 @@
 
 | Writer | Recipe |
 | --- | --- |
-| Arctic Monkeys | https://en.wikipedia.org/wiki/Fluorescent_Adolescent |
+| Arctic Monkeys | https://www.songfacts.com/facts/arctic-monkeys/fluorescent-adolescent |
 | Queen | https://en.wikipedia.org/wiki/We_Are_the_Champions |
-| Michael Jackson | https://en.wikipedia.org/wiki/Billie_Jean |
+| John Lennon | https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song) |
 | The Killers | https://en.wikipedia.org/wiki/Mr._Brightside |
 
 ## :running: Activities
