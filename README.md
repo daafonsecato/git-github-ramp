@@ -4,7 +4,7 @@ An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-
 
 ## Background Mario Kart
 
-The print magazine _Turbo MK_ has asked your firm to build and maintain an app so they can share automotive and motorcycle specifications with their thirsty-for-speed audience.
+The print magazine _Onlyrics_ has asked your firm to build and maintain an app so they can share song information and fun facts with their rhythmic audience.
 
 The typical development cycle for the project is as follows:
 

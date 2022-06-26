@@ -8,10 +8,10 @@
 
 | Writer | Recipe |
 | --- | --- |
-| Cuba Pudding Jr. | http://allrecipes.com/recipe/228654/quick-oatmeal-pancakes/ |
-| Eggs Benny | http://allrecipes.com/recipe/174361/asparagus-with-cranberries-and-pine-nuts/ |
-| John Lemon | http://allrecipes.com/recipe/18241/candied-carrots/ |
-| Madame Croque | http://www.realsimple.com/food-recipes/browse-all-recipes/roast-pork-sandwich/ |
+| Arctic Monkeys | https://en.wikipedia.org/wiki/Fluorescent_Adolescent |
+| Queen | https://en.wikipedia.org/wiki/We_Are_the_Champions |
+| Michael Jackson | https://en.wikipedia.org/wiki/Billie_Jean |
+| The Killers | https://en.wikipedia.org/wiki/Mr._Brightside |
 
 ## :running: Activities
 
@@ -172,7 +172,7 @@ $ git commit -m "Adding Cuba Pudding Jr.'s Feb Recipe"
 
 Now that your changes have been committed, let's get them published to your Fork on GitHub:
 ```sh
-$ git push -u upstream HEAD
+$ git push -u origin HEAD
 ```
 
 :bulb: Specifying the HEAD reference instructs git to push to the same branch as the HEAD of your local project, which is currently your feature branch.

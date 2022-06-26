@@ -112,7 +112,7 @@ Choose a developer to publish the fixup branch and create a Pull Request against
 
 Publish the branch:
 ```sh
-$ git push -u upstream HEAD
+$ git push -u origin HEAD
 ```
 
 Navigate to your GitHub fork and open the pull request, making sure to request to merge changes into the `hotfix-1.0.1` branch.

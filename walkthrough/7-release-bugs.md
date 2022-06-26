@@ -56,7 +56,7 @@ __Developers__
 
 The two developers from the last step should now publish their feature branches to GitHub and open up Pull Requests against the `release-1.1` branch in the source repository:
 ```sh
-$ git push -u upstream HEAD
+$ git push -u origin HEAD
 ```
 
 ---
