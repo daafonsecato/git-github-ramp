@@ -14,12 +14,12 @@ Follow along with the activities below to walk through the process of creating a
 
 __Maintainers__
 
-Create a branch off of `main` named `hotfix-1.0.1`:
+Create a branch off of `main` named `hotfix/YYYY-MM-DD` ex.  `hotfix/2022-06-26`:
 ```sh
 $ git checkout main
 # switch to main branch
 
-$ git checkout -b hotfix-1.0.1
+$ git checkout -b hotfix/YYYY-MM-DD
 # create & switch to hotfix branch
 ```
 
@@ -75,13 +75,13 @@ Fetch the latest from origin and create a local tracking branch for the hotfix:
 $ git fetch origin
 # fetch latest from origin
 
-$ git checkout hotfix-1.0.1
+$ git checkout hotfix/YYYY-MM-DD
 # checkout the hotfix branch
-Branch hotfix-1.0.1 set up to track remote branch hotfix-1.0.1 from origin.
-Switched to a new branch 'hotfix-1.0.1'
+Branch hotfix/YYYY-MM-DD set up to track remote branch hotfix/YYYY-MM-DD from origin.
+Switched to a new branch 'hotfix/YYYY-MM-DD'
 ```
 
-:bulb: As long as only one of your remotes has a branch called hotfix-1.0.1, it knows to create a local tracking branch.
+:bulb: As long as only one of your remotes has a branch called hotfix/YYYY-MM-DD, it knows to create a local tracking branch.
 
 
 Create a feature branch named `remove-emails` off of the hotfix branch.
@@ -115,7 +115,7 @@ Publish the branch:
 $ git push -u origin HEAD
 ```
 
-Navigate to your GitHub fork and open the pull request, making sure to request to merge changes into the `hotfix-1.0.1` branch.
+Navigate to your GitHub fork and open the pull request, making sure to request to merge changes into the `hotfix/YYYY-MM-DD` branch.
 
 ---
 
@@ -143,7 +143,7 @@ Choose a maintainer to accept the new pull request to merge the hotfix branch in
 
 Next we will work to get the hotfix merged back down into `develop`, so switch to the hotfix branch and pull down all the latest changes:
 ```sh
-$ git checkout hotfix-1.0.1
+$ git checkout hotfix/YYYY-MM-DD
 # switch to hotfix branch
 
 $ git pull
@@ -158,7 +158,7 @@ $ git checkout develop
 
 $ git pull
 
-$ git merge --no-ff hotfix-1.0.1
+$ git merge --no-ff hotfix/YYYY-MM-DD
 ```
 
 :bulb: Always make sure that `develop` is up to date before merging. There may be some merge conflicts that will need to be addressed at this point.

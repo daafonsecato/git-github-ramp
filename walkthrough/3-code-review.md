@@ -63,20 +63,20 @@ $ git fetch teammate
 $ git branch -r --list teammate/*
 # show all remote branches for the teammate
   teammate/develop
-  teammate/eggs-benny-feb
+  teammate/feature/arctic_monkeys
   teammate/main
 ```
 
 Checkout a tracking branch:
 ```sh
-$ git checkout eggs-benny-feb
-Branch teammate-feature-branch set up to track remote branch eggs-benny-feb from teammate.
+$ git checkout feature/arctic_monkeys
+Branch teammate-feature-branch set up to track remote branch feature/arctic_monkeys from teammate.
 Switched to a new branch 'teammate-feature-branch'
 ```
 
-:bulb: As long as only one of your remotes has a branch called eggs-benny-feb, it knows to create a local tracking branch.
+:bulb: As long as only one of your remotes has a branch called feature/arctic_monkeys, it knows to create a local tracking branch.
 
-:bulb: If you do not wish to create a tracking branch, you can check out the branch in read-only mode by fully-specifying the branch instead (e.g., `teammate/eggs-benny-feb`)
+:bulb: If you do not wish to create a tracking branch, you can check out the branch in read-only mode by fully-specifying the branch instead (e.g., `teammate/feature/arctic_monkeys`)
 
 Now you've switched the code in your directory to a branch containing all of the changes committed to your teammate's branch. If you have your project open in sublime or another text editor you will notice that the source files contain your teammate's changes.
 
@@ -87,7 +87,7 @@ commit 6b7a7c2bc46753d0d394758b8fd04bcd3b4cf896
 Author: My Teammate <teammate@gr8people.com>
 Date:   Mon Feb 8 12:58:20 2016 -0500
 
-    Adding Eggs Benny February Recipe
+    Adding R U Mine? Song
 
 ...
 ```

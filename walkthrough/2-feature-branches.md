@@ -15,7 +15,7 @@
 
 ## :running: Activities
 
-Follow along with the activities below to walk through the process of creating a feature branch and creating a Pull Request to merge your changes into the source repository.
+Follow along with the activities below to walk through the process of creating a feature branch and creating a Pull Request to merge your changes into the fork (origin) repository.
 
 ### 1 - Create a Feature Branch
 

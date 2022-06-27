@@ -12,10 +12,10 @@ It is the last day of the month and no more requests have come in from the, time
 
 __Maintainers__
 
-Choose a maintainer to merge `release-1.1` into `main`.
+Choose a maintainer to merge `release/1.1` into `main`.
 
 ```sh
-$ git checkout release-1.1
+$ git checkout release/1.1
 
 $ git pull
 
@@ -23,7 +23,7 @@ $ git checkout main
 
 $ git pull
 
-$ git merge --no-ff release-1.1
+$ git merge --no-ff release/1.1
 
 $ git push
 ```
@@ -42,20 +42,20 @@ __Maintainers__
 
 Next we will work to get changes made to the release merged back down into `develop`, so switch to the release branch and pull down all the latest changes:
 ```sh
-$ git checkout release-1.1
+$ git checkout release/1.1
 
 $ git checkout develop
 
-$ git merge --no-ff release-1.1
+$ git merge --no-ff release/1.1
 
 $ git push
 ```
 
 :bulb: Always make sure that `develop` is up to date before merging. There may be some merge conflicts that will need to be addressed at this point.
 
-Choose a maintainer to push the the commit up to the source repository:
+Choose a maintainer to push the the commit up to the fork repository:
 ```sh
-$ git push source develop
+$ git push origin develop
 ```
 ---
 
@@ -69,7 +69,7 @@ $ git push source develop
 
 Choose a maintainer to create a Release in GitHub:
 
-1. On the source repository page, click the "# releases" link in the stats bar at the top (or append `/releases` to the repo URL).
+1. On the fork repository page, click the "# releases" link in the stats bar at the top (or append `/releases` to the repo URL).
 2. Click new release.
 3. Name the release tag v1.1, choose the main branch, and document the changes comprising the release.
 
@@ -78,7 +78,7 @@ The release feature in GitHub is an easy way to keep track of changes associated
 
 ## :tada: We're done!
 
-You did it! Feel free at this time to navigate around the source repository, yours and others' forks and reflect back on all the hard work that was done to get v1.1 out the door :sunglasses:.
+You did it! Feel free at this time to navigate around the fork repository, yours and others' forks and reflect back on all the hard work that was done to get v1.1 out the door :sunglasses:.
 
 ## Quick Links
 
