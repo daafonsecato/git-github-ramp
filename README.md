@@ -2,7 +2,7 @@
 
 An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/), inspired in a [previous exercise](https://github.com/rferri-gr8/git-flow-exercise). This exercise will walk your team through a full release cycle for an example application.
 
-## Background Mario Kart
+## Background 
 
 The print magazine _Onlyrics_ has asked your firm to build and maintain an app so they can share song information and fun facts with their rhythmic audience.
 
