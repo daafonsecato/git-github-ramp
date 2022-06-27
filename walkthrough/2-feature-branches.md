@@ -27,10 +27,10 @@ Create a feature branch off of the `develop` branch that contains the writer's n
 ```sh
 $ git checkout develop
 
-$ git checkout -b cuba-pudding-jr-feb
+$ git checkout -b feature/arctic_monkeys
 
 $ git branch
-* cuba-pudding-jr-feb
+* feature/arctic_monkeys
   develop
   main
 ```
@@ -39,7 +39,7 @@ $ git branch
 
 :bulb: You can create a branch without immediately checking out the branch via the `git branch` command:
 ```sh
-$ git branch cuba-pudding-jr-feb
+$ git branch feature/arctic_monkeys
 ```
 
 ---
@@ -56,7 +56,7 @@ __All Team Members__
 
 In your text editor, make the following changes:
 
-1. Add the new recipe under the [`/app/recipe/feb/`](/app/recipe/feb/) directory.
+1. Add the new recipe under the [`/app/song/feb/`](/app/song/feb/) directory.
 2. Update the writer's page in the [`/app/writer/`](/app/writer/) directory.
 3. Update the main mage [`/app/index.md`](/app/index.md).
 
@@ -77,18 +77,18 @@ __All Team Members__
 If you view the current git status, you will see 2 files with unstaged changes and a new folder that has not been tracked by git:
 ```sh
 $ git status
-On branch cuba-pudding-jr-feb
+On branch feature/arctic_monkeys
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
         modified:   app/index.md
-        modified:   app/writer/cuba-pudding-jr.md
+        modified:   app/writer/arctic_monkeys.md
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-        app/recipe/feb/
+        app/song/feb/
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -100,25 +100,24 @@ diff --git a/app/index.md b/app/index.md
 index ac3abad..9777cd5 100644
 --- a/app/index.md
 +++ b/app/index.md
-@@ -8,7 +8,7 @@ Welcome to _Flavor_, the only place on the planet where your taste buds won't be
+@@ -8,7 +8,7 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be 
 
- ### [Cuba Pudding Jr.](writer/cuba-pudding-jr.md) | cubapud@flavor.magazine
+ ### [Arctic Monkeys](/writer/arctic_monkeys.md) | arctic.monkeys@onlyrics.magazine
 
--[Grilled Peach Salad](recipe/jan/grilled-peach-salad.md)
-+[Quick Oatmeal Pancakes](recipe/feb/quick-oatmeal-pancakes.md)
+-[Fluorescent Adolescent](song/jan/fluorescent_adolescent.md)
++[R U Mine?](song/feb/r_u_mine.md)
 
- ### [Eggs Benny](writer/eggs-benny.md) | englishmuffin@flavor.magazine
+ ### [Jhon Lennon](writer/john_lennon.md) | jhon.lennon@onlyrics.magazine
 
-diff --git a/app/writer/cuba-pudding-jr.md b/app/writer/cuba-pudding-jr.md
+diff --git a/app/writer/arctic_monkeys.md b/app/writer/arctic_monkeys.md
 index 250faea..7315699 100644
---- a/app/writer/cuba-pudding-jr.md
-+++ b/app/writer/cuba-pudding-jr.md
+--- a/app/writer/arctic_monkeys.md
++++ b/app/writer/arctic_monkeys.md
 @@ -4,4 +4,5 @@
 
- Recipe Picks:
-
-+- February: [Quick Oatmeal Pancakes](../recipe/feb/quick-oatmeal-pancakes.md)
- - January: [Grilled Peach Salad](../recipe/jan/grilled-peach-salad.md)
+ SongFacts in the year:
++- February: [R U Mine?](../song/feb/song/feb/r_u_mine.md)
+ - January: [Fluorescent Adolescent](../song/jan/fluorescent_adolescent.md)
 (END)
 ```
 
@@ -142,13 +141,13 @@ $ git add app/*
 # Careful, using a wildcard adds any file that has changed that matches the pattern.
 
 $ git status
-On branch cuba-pudding-jr-feb
+On branch feature/arctic_monkeys
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         modified:   app/index.md
-        new file:   app/recipe/feb/quick-oatmeal-pancakes.md
-        modified:   app/writer/cuba-pudding-jr.md
+        new file:   app/song/feb/r_u_mine.md
+        modified:   app/writer/arctic_monkeys.md
 ```
 
 :bulb: If you run a diff now, you will not see any changes. This is because `git diff` compares all staged changes to unstaged changes.
@@ -157,7 +156,7 @@ Changes to be committed:
 
 Now that all of your changes have been staged, commit them with an appropriate message:
 ```sh
-$ git commit -m "Adding Cuba Pudding Jr.'s Feb Recipe"
+$ git commit -m "Adding R U Mine? Feb Song"
 ```
 
 ---

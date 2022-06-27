@@ -1,10 +1,10 @@
-# Recipe Title
+# Song Title
 
-A short recipe description.
+A short song description.
 
-Source: https://example.com/link/to/original/recipe/
+Source: https://example.com/link/to/original/song/
 
-## Ingredients
+## Album
 
 - 
 - 
@@ -14,7 +14,7 @@ Source: https://example.com/link/to/original/recipe/
 - 
 - 
 
-# Instructions
+# SongFacts
 
 1. 
 2. 
