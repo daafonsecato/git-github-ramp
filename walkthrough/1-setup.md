@@ -197,7 +197,7 @@ You should now be ready to move on to the rest of the walkthrough. If you'd like
 
 ## Next
 
-Next we will walk through the process of creating feature branches, publishing changes to GitHub, and making a request to merge changes into the source repository using a Pull Request.
+Next we will walk through the process of creating feature branches, publishing changes to GitHub, and making a request to merge changes into the source or other repository using a Pull Request.
 
 [Go](2-feature-branches.md)
 
