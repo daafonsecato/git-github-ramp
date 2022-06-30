@@ -8,7 +8,7 @@ The print magazine _Onlyrics_ has asked your firm to build and maintain an app s
 
 The typical development cycle for the project is as follows:
 
-- On the 1<sup>st</sup> of every month, your team receives a list of each writer's picks for the recipe of the month.
+- On the 1<sup>st</sup> of every month, your team receives a list of each writer's picks for the song of the month.
 - On the 15<sup>th</sup> of every month, the new version of the app is pushed to a staging server where the magazine's editors can do a final review.
 - On the last day of the month, the new version of the app is pushed to production.
 

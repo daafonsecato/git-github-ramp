@@ -4,7 +4,7 @@
 | --- | --- |
 |  February 24<sup>th</sup> | Release |
 
-The magazine is happy with the work that has been done, but has asked that the recipes picked for january appear on the home screen under the heading "Last Month's Favorites". Oh and by the way, John Lennon has been fired so please would you remove him from the application.
+The magazine is happy with the work that has been done, but has asked that the songs picked for january appear on the home screen under the heading "Last Month's Favorites". Oh and by the way, John Lennon has been fired so please would you remove him from the application.
 
 ## :running: Activities
 

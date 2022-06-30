@@ -4,9 +4,9 @@
 | --- | --- |
 |  February 1<sup>st</sup> | Development |
 
-`v1.0` was pushed to production yesterday without issue. All code from the release has been merged into the `main` and `develop` branches of the project. The new recipes for February have been sent to the team:
+`v1.0` was pushed to production yesterday without issue. All code from the release has been merged into the `main` and `develop` branches of the project. The new songs for February have been sent to the team:
 
-| Writer | Recipe |
+| Writer | Song |
 | --- | --- |
 | Arctic Monkeys | https://www.songfacts.com/facts/arctic-monkeys/fluorescent-adolescent |
 | Queen | https://en.wikipedia.org/wiki/We_Are_the_Champions |
@@ -21,7 +21,7 @@ Follow along with the activities below to walk through the process of creating a
 
 __All Team Members__
 
-Choose a writer &mdash; you will add their recipe to the project within a new feature branch. If there are more writers than people, that is fine, only one feature branch will ultimately be merged.
+Choose a writer &mdash; you will add their song to the project within a new feature branch. If there are more writers than people, that is fine, only one feature branch will ultimately be merged.
 
 Create a feature branch off of the `develop` branch that contains the writer's name and the month of the pick:
 ```sh
@@ -56,7 +56,7 @@ __All Team Members__
 
 In your text editor, make the following changes:
 
-1. Add the new recipe under the [`/app/song/feb/`](/app/song/feb/) directory.
+1. Add the new song under the [`/app/song/feb/`](/app/song/feb/) directory.
 2. Update the writer's page in the [`/app/writer/`](/app/writer/) directory.
 3. Update the main mage [`/app/index.md`](/app/index.md).
 
