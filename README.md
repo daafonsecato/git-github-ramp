@@ -2,6 +2,12 @@
 
 An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/), inspired in a [previous exercise](https://github.com/rferri-gr8/git-flow-exercise). This exercise will walk your team through a full release cycle for an example application.
 
+##  OBJECTIVES
+1.	Apprehend basic and most used Git commands
+2.	Apprehend GitHub
+3.	Extra: Apprehend Git Flow
+
+
 ## Background 
 
 The print magazine _Onlyrics_ has asked your firm to build and maintain an app so they can share song information and fun facts with their rhythmic audience.
