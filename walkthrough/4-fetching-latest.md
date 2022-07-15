@@ -14,6 +14,7 @@ Follow along with the activities below to walk through the process of pulling th
 
 __All Team Members__
 
+In git you can pull or fetch, consider also using `fetch` and `checkout` or `fetch` and `merge`
 Pull the latest commits to the `develop` branch from the source repository:
 ```sh
 $ git checkout develop
