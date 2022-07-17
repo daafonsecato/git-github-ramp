@@ -18,7 +18,7 @@ The typical development cycle for the project is as follows:
 - On the 15<sup>th</sup> of every month, the new version of the app is pushed to a staging server where the magazine's editors can do a final review.
 - On the last day of the month, the new version of the app is pushed to production.
 
-Development for this project began in June. It is now the beginning of July and the development cycle for `v1.1` of the app has begun.
+Development for this project began in June. It is now the beginning of July and the development cycle for `v1.1.0` of the app has begun.
 
 ## Getting Started
 
