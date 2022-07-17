@@ -193,7 +193,7 @@ Navigate to your Fork on Github, you should now see your new branch in the inter
 
 On your GitHub fork, you should see a block at the top indicating that you've recently pushed a branch. If this is visible, click the "Compare & Pull Request" button to the right of your feature branch. If it is not available, choose your branch in the dropdown just above the code directory listing and then click the "New Pull Request" button to the right of the dropdown.
 
-On the Pull Request interface, make sure that the base fork is `source-username\repository-name` and the base branch is `develop`. This means that you are requesting to merge your changes into the `develop` branch of the source repository. At this time also make sure that the head fork and compare branches match your GitHub Fork and feature branch, respectively.
+On the Pull Request interface, make sure make sure to click "compare across forks" and the base fork is `source-username\repository-name` and the base branch is `develop`. This means that you are requesting to merge your changes into the `develop` branch of the source repository. At this time also make sure that the head fork and compare branches match your GitHub Fork and feature branch, respectively.
 
 Please draft a message documenting the changes that you've made and then click the green "Create pull request" button.
 
