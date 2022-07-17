@@ -4,7 +4,7 @@
 | --- | --- |
 |  February 15<sup>th</sup> | Release |
 
-It is now time to begin testing `v1.1` of the app and submit it for the magazine's review
+It is now time to begin testing `v1.1.0` of the app and submit it for the magazine's review
 
 ## :running: Activities
 
@@ -19,12 +19,12 @@ $ git checkout develop
 $ git pull
 ```
 
-Create a new branch off of `develop` named `release/1.1`:
+Create a new branch off of `develop` named `release/1.1.0`:
 ```sh
 $ git checkout -b release/1.1
 ```
 
-Bump the version number to 1.1:
+Bump the version number to 1.1.0:
 ```
 major=1
 minor=1
@@ -35,7 +35,7 @@ Finally, stage and commit the change:
 ```sh
 $ git add app/VERSION
 
-$ git commit -m "Bump version to 1.1"
+$ git commit -m "Bump version to 1.1.0"
 ```
 
 ### 2 - Publish the Release Branch
