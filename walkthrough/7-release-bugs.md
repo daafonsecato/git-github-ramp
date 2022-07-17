@@ -22,7 +22,7 @@ $ git fetch origin
 
 $ git checkout release/1.1.0
 # checkout the release branch
-Branch hotfix/YYYY-MM-DD set up to track remote branch release/1.1 from origin.
+Branch hotfix/YYYY-MM-DD set up to track remote branch release/1.1.0 from origin.
 Switched to a new branch 'hotfix/YYYY-MM-DD'
 ```
 
