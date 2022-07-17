@@ -54,7 +54,7 @@ Other team members may also choose an issue and make the changes themselves loca
 
 __Developers__
 
-The two developers from the last step should now publish their feature branches to GitHub and open up Pull Requests against the `release/1.1` branch in the source repository:
+The two developers from the last step should now publish their feature branches to GitHub and open up Pull Requests against the `release/1.1.0` branch in the source repository:
 ```sh
 $ git push -u origin HEAD
 ```
@@ -71,7 +71,7 @@ $ git push -u origin HEAD
 
 __Maintainers__
 
-Review the developer Pull Requests and merge them into `release/1.1`.
+Review the developer Pull Requests and merge them into `release/1.1.0`.
 
 ## Next
 
