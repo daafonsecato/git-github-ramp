@@ -21,3 +21,7 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 ### [The Killers](writer/the_killers) | the.killers@onlyrics.magazine
 
 [Mr. Brightside](song/jan/mr_brightside.md)
+
+### [Dio](writer/dio) | dio@onlyrics.magazine
+
+[Holy Diver](song/feb/holy_diver.md)
