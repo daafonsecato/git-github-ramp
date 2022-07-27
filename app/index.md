@@ -14,11 +14,11 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 [Imagine](song/jan/vanilla-panna-cotta.md)
 
-### [Queen](writer/queen.md) | queen@onlyrics.magazine
+### [Queen](writer/queen.md) | 
 
 [We Are The Champions](song/jan/we_are_the_champions.md)
 
-### [The Killers](writer/the_killers) | the.killers@onlyrics.magazine
+### [The Killers](writer/the_killers) | 
 
 [Mr. Brightside](song/jan/mr_brightside.md)
 
