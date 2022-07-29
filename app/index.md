@@ -16,6 +16,10 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 [Imagine](song/jan/vanilla-panna-cotta.md)
 [Imagine](song/feb/vanilla-panna-cotta.md)
 
+### [Mariya Takeuchi](writer/mariya_takeuchi.md) |
+
+[Plastic Love](song/feb/plastic_love.md)
+
 ### [Queen](writer/queen.md) | queen@onlyrics.magazine
 
 [We Are The Champions](song/jan/we_are_the_champions.md)
