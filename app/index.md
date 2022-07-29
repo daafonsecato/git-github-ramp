@@ -25,11 +25,17 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 [We Are The Champions](song/jan/we_are_the_champions.md)
 [We Are The Champions](song/feb/we_are_the_champions.md)
 
-### [The Killers](writer/the_killers) | the.killers@onlyrics.magazine
+### [The Killers](writer/the_killers.md) | the.killers@onlyrics.magazine
 
 [Mr. Brightside](song/jan/mr_brightside.md)
+
 [Mr. Brightside](song/feb/mr_brightside.md)
 
 ### [The Living Tombstone](writer/the_living_tombstone) | inquiries@thelivingtombstone.com
 
 [Drunk](song/feb/drunk.md)
+
+
+### [The Rolling Stones](writer/the_rolling_stones.md) | the.rolling.stones@onlyrics.magazine
+
+[Sympathy For The Devil](song/feb/sympathy_for_the_devil.md)
