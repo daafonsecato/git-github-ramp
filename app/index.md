@@ -25,3 +25,7 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 [Mr. Brightside](song/jan/mr_brightside.md)
 [Mr. Brightside](song/feb/mr_brightside.md)
+
+### [The Living Tombstone](writer/the_living_tombstone) | inquiries@thelivingtombstone.com
+
+[Drunk](song/feb/drunk.md)
