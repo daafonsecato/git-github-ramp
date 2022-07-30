@@ -6,12 +6,12 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 ## Picks of the Month
 
-### [Arctic Monkeys](/writer/arctic_monkeys.md) | arctic.monkeys@onlyrics.magazine
+### [Arctic Monkeys](/writer/arctic_monkeys.md)
 
 [Fluorescent Adolescent](song/jan/fluorescent_adolescent.md)
 [Fluorescent Adolescent](song/feb/fluorescent_adolescent.md)
 
-### [Jhon Lennon](writer/john_lennon.md) | jhon.lennon@onlyrics.magazine
+### [Jhon Lennon](writer/john_lennon.md)
 
 [Imagine](song/jan/vanilla-panna-cotta.md)
 [Imagine](song/feb/vanilla-panna-cotta.md)
@@ -20,12 +20,16 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 [Plastic Love](song/feb/plastic_love.md)
 
-### [Queen](writer/queen.md) | queen@onlyrics.magazine
+### [Queen](writer/queen.md)
 
 [We Are The Champions](song/jan/we_are_the_champions.md)
 [We Are The Champions](song/feb/we_are_the_champions.md)
 
+<<<<<<< HEAD
 ### [The Killers](writer/the_killers.md) | the.killers@onlyrics.magazine
+=======
+### [The Killers](writer/the_killers)
+>>>>>>> hotfix/2022-02-05
 
 [Mr. Brightside](song/jan/mr_brightside.md)
 
