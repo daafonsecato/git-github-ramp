@@ -11,11 +11,6 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 [Fluorescent Adolescent](song/jan/fluorescent_adolescent.md)
 [Fluorescent Adolescent](song/feb/fluorescent_adolescent.md)
 
-### [Jhon Lennon](writer/john_lennon.md)
-
-[Imagine](song/jan/vanilla-panna-cotta.md)
-[Imagine](song/feb/vanilla-panna-cotta.md)
-
 ### [Mariya Takeuchi](writer/mariya_takeuchi.md) |
 
 [Plastic Love](song/feb/plastic_love.md)
