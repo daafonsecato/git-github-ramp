@@ -1,3 +1,6 @@
+
+
+
 # Git Flow Katas Exercise
 
 An exercise for learning the [git-flow branching model](http://nvie.com/posts/a-successful-git-branching-model/), inspired in a [previous exercise](https://github.com/rferri-gr8/git-flow-exercise). This exercise will walk your team through a full release cycle for an example application.
