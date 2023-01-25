@@ -9,6 +9,7 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 ### [Arctic Monkeys](/writer/arctic_monkeys.md) | arctic.monkeys@onlyrics.magazine
 
 [Fluorescent Adolescent](song/jan/fluorescent_adolescent.md)
+[Do I Wanna Know?](../song/feb/Do_I_Wanna_Know.md)
 
 ### [Jhon Lennon](writer/john_lennon.md) | jhon.lennon@onlyrics.magazine
 
