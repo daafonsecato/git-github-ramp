@@ -8,4 +8,4 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 ### [Queen](writer/queen.md) | queen@onlyrics.magazine
 
-[We Are The Champions](song/feb/we_are_the_champions.md)
+[Bohemian Rhapsody](song/feb/Bohemian_Rhapsody.md)
