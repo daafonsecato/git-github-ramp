@@ -8,7 +8,7 @@ Welcome to _Onlyrics_, the only place on the planet where your ears won't be dis
 
 ### [Arctic Monkeys](/writer/arctic_monkeys.md) | arctic.monkeys@onlyrics.magazine
 
-[Fluorescent Adolescent](song/jan/fluorescent_adolescent.md)
+[505](song/feb/505.md)
 
 ### [Jhon Lennon](writer/john_lennon.md) | jhon.lennon@onlyrics.magazine
 
